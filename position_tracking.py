@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-2D Position Tracking using MPU6050 + QMC5883L + BMP180 IMU Module
-Enhanced with complementary filter, coordinate transformation, drift correction, and AprilTag visual corrections.
-"""
-
-
 import os
 import sys
 # Fix Qt platform plugin issues BEFORE importing other modules
