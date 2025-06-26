@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 import json
 import math
 import heapq
@@ -12,7 +12,7 @@ import numpy as np
 from picamera2 import Picamera2
 import math
 import threading
-# Import your existing modules
+
 from obstacle_detection import ObstacleDetectionSystem, DetectedObstacle
 from position_tracking import EnhancedContinuousIMUTracker, ContinuousPosition
 import numpy as np
