@@ -50,7 +50,7 @@ while True:
 cv2.destroyAllWindows()
 picam2.stop()
 
-# Calibrate
+
 ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(
     objpoints, imgpoints, gray.shape[::-1], None, None)
 
